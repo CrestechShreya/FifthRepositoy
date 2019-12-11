@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ImportedArtifacts />
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>D60CE6118A2439EDD9379D59290F4C48</Name>
+      <Value>Project Workspace\FL_new.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
   <MetaInformation>
     <DescriptionRTF />
     <ExpectedResult />
@@ -9,9 +14,18 @@
   </MetaInformation>
   <FlowSteps>
     <FlowStep>
-      <ContinueOnError>true</ContinueOnError>
+      <ContinueOnError>false</ContinueOnError>
       <IsNegative>false</IsNegative>
       <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>D60CE6118A2439EDD9379D59290F4C48</Component_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs />
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>false</ShouldRun>
       <WantSnapshot>true</WantSnapshot>
       <Keyword_RelativePath>SystemKeyword\AddItemInCollection</Keyword_RelativePath>
       <StepInputArgs>
